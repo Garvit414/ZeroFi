@@ -1,0 +1,6 @@
+-- ds.page: Logos
+site-logo: $assets.files.static.logo.svg
+site-name: NULL
+
+
+-- end: ds.page

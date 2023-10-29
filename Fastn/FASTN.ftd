@@ -1,0 +1,121 @@
+-- import: fastn
+
+-- fastn.package: fastn-community.github.io/midnight-storm
+favicon: https://fastn-community.github.io/midnight-storm/-/fastn-community.github.io/midnight-storm/favicon.svg
+
+-- fastn.dependency: fastn-community.github.io/code-block
+-- fastn.dependency: fastn-community.github.io/midnight-storm-typography
+-- fastn.dependency: fastn-community.github.io/playfair-display-font
+-- fastn.dependency: fastn-community.github.io/inter-font
+-- fastn.dependency: fastn-community.github.io/app-switcher
+-- fastn.dependency: fastn-community.github.io/poppins-font
+-- fastn.dependency: fastn-community.github.io/midnight-storm-cs
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/banner
+-- fastn.dependency: fastn-community.github.io/typography
+-- fastn.dependency: gargajit.github.io/optimization
+-- fastn.dependency: fastn.com
+-- fastn.auto-import: fastn
+-- fastn.auto-import: fastn-community.github.io/code-block as cb
+-- fastn.auto-import: fastn-community.github.io/typography as tf
+-- fastn.auto-import: fastn-community.github.io/midnight-storm/assets
+-- fastn.auto-import: fastn-community.github.io/midnight-storm/common
+-- fastn.auto-import: fastn-community.github.io/midnight-storm/FASTN/ds
+
+-- fastn.sitemap:
+
+# Home: /index.html
+
+- Overview: index.html
+- Apply for Loan: /how-to/
+- Connect Wallet: /getting-started/
+- Configuring your site: /domain-setup/
+- Adding Favicon: /favicon/
+- Adding Logo & Sitename: /logo/
+- Changing Color Scheme: /cs/
+- Changing Typography: /types/
+- Adding Banner: /banner/
+- Components: /components/
+  - author-bio: /components/author-bio/
+  skip: true
+  - banner-card: /components/banner-card/
+  skip: true
+  - code: /components/code/
+  skip: true
+  - compact-text: /components/compact-text/
+  skip: true
+  - content: /components/content/
+  skip: true
+  - faqs: /components/faqs/
+  skip: true
+  - featured-post: /components/featured-post/
+  skip: true
+  - features-card: /components/features-card/
+  skip: true
+  - h0, h1, h2, h3: /components/headers/
+  skip: true
+  - hero-with-image: /components/hero-with-image/
+  skip: true
+  - hero-image-left: /components/hero-image-left/
+  skip: true
+  - hero-image-right: /components/hero-image-right/
+  skip: true
+  - iframe: /components/iframe/
+  skip: true
+  - image: /components/image/
+  skip: true
+  - image-first: /components/image-first/
+  skip: true
+  - image-in-between: /components/image-in-between/
+  skip: true
+  - link & link-group: /components/link/
+  skip: true
+  - logo-cloud: /components/logo-cloud/
+  skip: true
+  - markdown: /components/markdown/
+  skip: true
+  - not-found-1: /components/404-1/
+  skip: true
+  - not-found-2: /components/404-2/
+  skip: true
+  - output: /components/output/
+  skip: true
+  - page: /components/page/
+  skip: true
+  - post: /components/post/
+  skip: true
+  - post-card: /components/post-card/
+  skip: true
+  - posts: /components/posts/
+  skip: true
+  - rendered: /components/rendered/
+  skip: true
+  - search-card: /components/search-card/
+  skip: true
+  - testimonials-card: /components/testimonials-card/
+  skip: true
+  - tip: /components/tip/
+  skip: true
+  - without-image: /components/without-image/
+  skip: true
+  - youtube: /components/youtube/
+  skip: true
+
+- Understanding Sitemap: /sitemap/
+- Adding Right Sidebar: /right-sidebar/
+- Updating Footer: /footer/
+- SEO: /seo/
+
+- Blog: /blog/
+  - Post List: /post-list/
+  - Sample Post: /blog-articles/category-1/sample-post-1/
+  - Sample Author Bio: /blog-authors/patrica/
+
+- Contribute: /contribute/
+
+# Blog: blog/
+
+## Sample Post: blog-articles/category-1/sample-post-1/
+
+# Landing: landing/

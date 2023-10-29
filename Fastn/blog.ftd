@@ -1,0 +1,57 @@
+-- import: fastn-community.github.io/midnight-storm/blog-articles/category-1/sample-post-1
+
+-- ds.page: Blog
+sidebar: false
+blog: true
+
+-- ds.page.hero:
+
+-- ds.featured-post:
+post-data: $sample-post-1.meta
+info: Small Incidental Text.
+cta-primary: Button
+cta-primary-url: blog-articles/category-1/sample-post-1/
+cta-secondary: Button
+cta-secondary-url: blog-articles/category-1/sample-post-1/
+link: blog-articles/category-1/sample-post-1/
+
+-- end: ds.page.hero
+
+-- ds.posts:
+
+-- ds.h2: Latest blog
+
+-- ds.markdown:
+
+Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac
+imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.
+
+-- ds.post-card:
+post-data: $sample-post-1.meta1
+
+-- ds.post-card:
+post-data: $sample-post-1.meta2
+
+-- ds.post-card:
+post-data: $sample-post-1.meta1
+
+-- ds.post-card:
+post-data: $sample-post-1.meta2
+
+-- ds.post-card:
+post-data: $sample-post-1.meta1
+
+-- ds.post-card:
+post-data: $sample-post-1.meta2
+
+-- ds.post-card:
+post-data: $sample-post-1.meta1
+
+-- ds.post-card:
+post-data: $sample-post-1.meta2
+
+-- ds.post-card:
+post-data: $sample-post-1.meta1
+-- end: ds.posts
+
+-- end: ds.page

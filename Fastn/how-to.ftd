@@ -1,0 +1,50 @@
+-- ds.page:  Apply for Loan
+document-title: fastn midnight-storm Template. Build Your Own Website with Ease
+document-description: Simple, easy-to-use midnight-storm template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+document-image: https://fastn-community.github.io/midnight-storm/-/fastn-community.github.io/midnight-storm/static/midnight-storm-og-image.jpg
+
+-- ds.page.right-sidebar:
+
+-- ds.link-group: Invocation
+cta: how-to-use/#invocation
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+
+
+To use this package add below lines into your FASTN.ftd file:
+
+-- cb.code:
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/midnight-storm
+\-- fastn.auto-import: fastn-community.github.io/midnight-storm
+
+-- ds.h2: Invocation
+id: invocation
+
+Create new ftd file into your fastn package e.g. `index.ftd` and add `page`
+component inside it
+
+
+-- cb.code:
+lang: ftd
+
+\-- ds.page: Welcome to your fastn powered website.
+document-title: fastn midnight-storm Template. Build Your Own Website with Ease
+document-description: Simple, easy-to-use midnight-storm template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+document-image: https://fastn-community.github.io/midnight-storm/-/fastn-community.github.io/midnight-storm/static/midnight-storm-og-image.jpg
+site-name: NULL
+site-logo: $assets.files.static.LineTech.svg
+site-name: NULL
+github-url: https://github.com/fastn-community/midnight-storm/
+github-icon: true
+color-scheme: fastn-community.github.io/midnight-storm-typography
+typography: fastn-community.github.io/midnight-storm-cs
+
+Some body here is coming from `$page.body`
+
+
+-- end: ds.page
