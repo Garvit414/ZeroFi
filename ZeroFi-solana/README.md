@@ -1,4 +1,4 @@
-# Dassi Prototype Program for Solana India Hackathon Submission
+# ZeroFi Prototype Program for Solana India Hackathon Submission
 
 
 ### Environment Setup
